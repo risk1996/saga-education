@@ -2,10 +2,14 @@ import React from 'react'
 import PropTypes from 'prop-types'
 import { graphql } from 'gatsby'
 import Layout from '../components/Layout'
-import Content, { HTMLContent } from '../components/Content'
+import Content from '../components/Content'
+import SagaContent from '../components/SagaContent'
 
 export const AboutPageTemplate = ({ title, content, contentComponent }) => {
   const PageContent = contentComponent || Content
+
+  const elements = content.children
+    .filter(el => el.tagName === 'p' || el.tagName === 'ul')
 
   return (
     <section className="section section--gradient">
@@ -16,7 +20,11 @@ export const AboutPageTemplate = ({ title, content, contentComponent }) => {
               <h2 className="title is-size-3 has-text-weight-bold is-bold-light">
                 {title}
               </h2>
-              <PageContent className="content" content={content} />
+              {elements.map(el => el.tagName === 'p' ? (
+                <br />
+              ) : el.children.filter(child => child.tagName === 'li').map(li => li.children[0].value).map(text => (
+                <PageContent className="content has-text-black has-text-weight-normal" content={text} key={text} />
+              )))}
             </div>
           </div>
         </div>
@@ -37,9 +45,9 @@ const AboutPage = ({ data }) => {
   return (
     <Layout>
       <AboutPageTemplate
-        contentComponent={HTMLContent}
+        contentComponent={SagaContent}
         title={post.frontmatter.title}
-        content={post.html}
+        content={post.htmlAst}
       />
     </Layout>
   )
@@ -54,7 +62,7 @@ export default AboutPage
 export const aboutPageQuery = graphql`
   query AboutPage($id: String!) {
     markdownRemark(id: { eq: $id }) {
-      html
+      htmlAst
       frontmatter {
         title
       }

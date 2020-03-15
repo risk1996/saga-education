@@ -1,8 +1,8 @@
 {
-  "name": "gatsby-starter-netlify-cms",
-  "description": "Example Gatsby, and Netlify CMS project",
+  "name": "saga-education",
+  "description": "Language School",
   "version": "1.1.3",
-  "author": "Austin Green",
+  "author": "William Darian",
   "dependencies": {
     "bulma": "^0.8.0",
     "gatsby": "^2.13.31",

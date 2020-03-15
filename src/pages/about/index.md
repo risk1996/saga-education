@@ -1,19 +1,14 @@
 ---
 templateKey: 'about-page'
 path: /about
-title: About our values
+title: About Us
 ---
-### Shade-grown coffee
-Coffee is a small tree or shrub that grows in the forest understory in its wild form, and traditionally was grown commercially under other trees that provided shade. The forest-like structure of shade coffee farms provides habitat for a great number of migratory and resident species.
+General:
+- adalah sebuah lembaga pendidikan nonformal yang menyediakan kursus bahasa asing dan bimbingan belajar. Melalui tenaga pengajar yang berpengalaman, Sága Education menyelenggarakan pendidikan yang imersif dan interaktif, dan lebih efektif karena setiap kelas tidak diisi lebih dari 6 (enam) siswa.
+- is a non-formal educational institution that provides foreign language and tuition classes. Through our experienced teachers, our classes are interactive, immersive, and more effective because they are designed to cater to a maximum of 6 (six) students.
+- は外国語と塾のクラスを提供する非公式の教育機関です。経験豊富な教師を通じて、インタラクティブで没入型の教育システムを提供しています。
 
-### Single origin
-Single-origin coffee is coffee grown within a single known geographic origin. Sometimes, this is a single farm or a specific collection of beans from a single country. The name of the coffee is then usually the place it was grown to whatever degree available.
-
-### Sustainable farming
-Sustainable agriculture is farming in sustainable ways based on an understanding of ecosystem services, the study of relationships between organisms and their environment. What grows where and how it is grown are a matter of choice and careful consideration for nature and communities.
-
-### Direct sourcing
-Direct trade is a form of sourcing practiced by some coffee roasters. Advocates of direct trade practices promote direct communication and price negotiation between buyer and farmer, along with systems that encourage and incentivize quality.
-
-### Reinvest profits
-We want to truly empower the communities that bring amazing coffee to you. That’s why we reinvest 20% of our profits into farms, local businesses and schools everywhere our coffee is grown. You can see the communities grow and learn more about coffee farming on our blog.
+Curriculum:
+- menggunakan CEFR (Common European Framework of Reference) sebagai acuan kurikulum pengajaran di setiap kelas bahasa asing. Kelas yang disediakan bersifat menyeluruh, meliputi aspek membaca, menulis, mendengarkan, berbicara, tata ucap, serta tata bahasa.
+- uses CEFR (Common European Framework of Reference) as the basis of its language classes' curricula. Our classes are comprehensive, as they cover all aspects, such as reading, writing, listening, speaking, pronunciation, and grammar.
+- の言語クラスのカリキュラムの基礎としてCEFR（Common European Framework of Reference）を使用しています。私たちのクラスは、読解、作文、聴解、口頭、発音、文法などのすべての側面を網羅しているため、包括的です。
